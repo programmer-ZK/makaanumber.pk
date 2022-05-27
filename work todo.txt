@@ -1,0 +1,1 @@
+add loader on search form on frontend page
