@@ -10,7 +10,7 @@ $emirates = DB::table('states')
 
 <div id="search-form12">
 
-  <form action="/search-propeties" id="srch_form_home" method="get" onkeydown="return event.key != 'Enter';">
+  <form action="/search-propeties"  method="get">
     @csrf
     <div id="searchSpinner" class="row">
       <div class="col-lg-6 spinner-div">

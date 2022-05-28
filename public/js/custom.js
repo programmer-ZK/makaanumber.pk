@@ -30,7 +30,7 @@ $(document).ready(function() {
   });
 
   $("#searchFormSubmit").on('click', function(e){
-    e.preventDefault();
+    // e.preventDefault();
     var selectedValues = $("#multipleSelect").select2('val');
     console.log(selectedValues);
     

@@ -947,9 +947,9 @@ $pkg = [];
 
 
 
-    $("#srch_form_home").submit(function(e) {
-      e.preventDefault();
-    });
+    // $("#srch_form_home").submit(function(e) {
+    //   e.preventDefault();
+    // });
 
     // $("#srch_form_home").submit(function(e) {
     //   var location = $('#location').val();
@@ -978,9 +978,9 @@ $pkg = [];
       }, 100);
     })
     
-    $("#srch_form_home").submit(function(e) {
-        $(this).unbind('submit').submit()
-      });
+    // $("#srch_form_home").submit(function(e) {
+    //     $(this).unbind('submit').submit()
+    //   });
       
      
 
