@@ -440,7 +440,7 @@ $pkg = [];
                       $price = number_format($price, 0, '.', ',');
                       ?>
                       <div class="col-sm-5">
-                        <p class="descrip" style="color:#0AAC7E; font-weight:bold; ">AED
+                        <p class="descrip" style="color:#0AAC7E; font-weight:bold; ">PKR
                           {{ $price }}
                         </p>
                       </div>
@@ -611,7 +611,7 @@ $pkg = [];
                     $price = number_format($price, 0, '.', ',');
                     ?>
                     <div class="col-sm-5">
-                      <p class="descrip" style="color:#0AAC7E; font-weight:bold; ">AED
+                      <p class="descrip" style="color:#0AAC7E; font-weight:bold; ">PKR
                         {{ $price }}
                       </p>
                     </div>

@@ -190,7 +190,7 @@
             <p>2545 Meldow eye</p>
           </div>
           <div class="col-sm-4">
-            <p class="descrip">AED 300,000</p>
+            <p class="descrip">PKR 300,000</p>
           </div>
         </div>
 
@@ -227,7 +227,7 @@
             <p>2545 Meldow eye</p>
           </div>
           <div class="col-sm-4">
-            <p class="descrip">AED 300,000</p>
+            <p class="descrip">PKR 300,000</p>
           </div>
         </div>
 
@@ -264,7 +264,7 @@
             <p>2545 Meldow eye</p>
           </div>
           <div class="col-sm-4">
-            <p class="descrip">AED 300,000</p>
+            <p class="descrip">PKR 300,000</p>
           </div>
         </div>
 
@@ -301,7 +301,7 @@
             <p>2545 Meldow eye</p>
           </div>
           <div class="col-sm">
-            <p class="descrip">AED 300,000</p>
+            <p class="descrip">PKR 300,000</p>
           </div>
         </div>
 
@@ -338,7 +338,7 @@
             <p>2545 Meldow eye</p>
           </div>
           <div class="col-sm">
-            <p class="descrip">AED 300,000</p>
+            <p class="descrip">PKR 300,000</p>
           </div>
         </div>
 
@@ -391,7 +391,7 @@
               <p>2545 Meldow eye</p>
             </div>
             <div class="col-sm-4">
-              <p class="descrip">AED 300,000</p>
+              <p class="descrip">PKR 300,000</p>
             </div>
           </div>
 
@@ -429,7 +429,7 @@
               <p>2545 Meldow eye</p>
             </div>
             <div class="col-sm-4">
-              <p class="descrip">AED 300,000</p>
+              <p class="descrip">PKR 300,000</p>
             </div>
           </div>
 
@@ -468,7 +468,7 @@
               <p>2545 Meldow eye</p>
             </div>
             <div class="col-sm-4">
-              <p class="descrip">AED 300,000</p>
+              <p class="descrip">PKR 300,000</p>
             </div>
           </div>
 
@@ -504,7 +504,7 @@
               <p>2545 Meldow eye</p>
             </div>
             <div class="col-sm">
-              <p class="descrip">AED 300,000</p>
+              <p class="descrip">PKR 300,000</p>
             </div>
           </div>
 
@@ -536,7 +536,7 @@
               2545 Meldow eye
             </div>
             <div class="col-sm">
-              <p class="descrip">AED 300,000</p>
+              <p class="descrip">PKR 300,000</p>
             </div>
           </div>
 

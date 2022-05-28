@@ -136,7 +136,7 @@ if ($propPurpose == "renting") {
               $price = number_format($price, 0, '.', ',');
               ?>
 
-              <p class="descrip" style="font-weight:bold;">AED {{$price}} </p>
+              <p class="descrip" style="font-weight:bold;">PKR {{$price}} </p>
 
             </div>
           </div>
@@ -258,7 +258,7 @@ if ($propPurpose == "renting") {
 
               @foreach($propertyUrl as $k => $url)
               @if($loop->first)
-              <p class="card-title" style="font-size:16px; font-weight:bold;"><span style="color:white !important;"><a href="properties/{{$url->key}}" style="color:white !important;">{{Str::limit($prop->name, 25)}}</a></span> <span style="float:right; color:#0AAC7E; font-weight:light;">AED {{$price}}</span></p>
+              <p class="card-title" style="font-size:16px; font-weight:bold;"><span style="color:white !important;"><a href="properties/{{$url->key}}" style="color:white !important;">{{Str::limit($prop->name, 25)}}</a></span> <span style="float:right; color:#0AAC7E; font-weight:light;">PKR {{$price}}</span></p>
               @endif
               @endforeach
               <p style="color:#B7B7B7; font-size:14px;">{{$prop->location}}</p>

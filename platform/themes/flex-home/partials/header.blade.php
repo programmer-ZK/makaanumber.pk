@@ -294,8 +294,9 @@ if (Auth::user()) {
 
           <li class="nav-item mt-2 ml-3 active" style="border:none !important;">
             <span class="mr-5">
-              <img class="flag mr-1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/320px-Flag_of_Pakistan.svg.png" />
-              <img class="flag1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/255px-Flag_of_the_United_Arab_Emirates.svg.png" />
+              <img class="flag1 mr-1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/320px-Flag_of_Pakistan.svg.png" />
+
+              <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/255px-Flag_of_the_United_Arab_Emirates.svg.png" />
             </span>
 
           </li>

@@ -23,7 +23,7 @@ alt="{{ $property->name }}">
 
   </div>
   <div class="col-sm-5">
-    <p class="descrip" style="color:#0AAC7E;">AED {{$property->price}}</p>
+    <p class="descrip" style="color:#0AAC7E;">PKR {{$property->price}}</p>
   </div>
 </div>
 

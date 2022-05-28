@@ -181,7 +181,7 @@ $emirates = DB::table('states')
         <div class="row">
           <div class="col-sm-3">
             <div class="row float">
-              <label class="form-label ">Price (AED):</label>
+              <label class="form-label ">Price (PKR):</label>
             </div>
             <br>
           </div>
