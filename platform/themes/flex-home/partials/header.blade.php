@@ -54,7 +54,7 @@ if (Auth::user()) {
 
   <style>
     .add-property {
-      background-color: #43454d;
+      background-color: #28BEAE;
       color: white;
       border: 1px solid #D3D3D3;
       text-align: center;

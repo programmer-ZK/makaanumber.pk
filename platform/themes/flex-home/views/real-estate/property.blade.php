@@ -12,17 +12,17 @@ $state = \Botble\Location\Models\State::with(['cities.properties'])
     margin-top: 0px !important;
   }
 </style>
-<link media="all" type="text/css" rel="stylesheet" href="https://www.live.makanumber.com/themes/flex-home/libraries/owl-carousel/owl.carousel.min.css">
-<link media="all" type="text/css" rel="stylesheet" href="https://www.live.makanumber.com/themes/flex-home/libraries/owl-carousel/owl.theme.default.css">
-<link media="all" type="text/css" rel="stylesheet" href="https://www.live.makanumber.com/themes/flex-home/libraries/bootstrap/bootstrap.min.v4.css">
-<link media="all" type="text/css" rel="stylesheet" href="https://www.live.makanumber.com/themes/flex-home/css/style.css?v=2.29.0">
-<script src="https://www.live.makanumber.com/themes/flex-home/libraries/bootstrap/popper.min.js"></script>
-<script src="https://www.live.makanumber.com/themes/flex-home/libraries/bootstrap/bootstrap.min.js"></script>
-<script src="https://www.live.makanumber.com/themes/flex-home/libraries/jquery.min.js"></script>
+<link media="all" type="text/css" rel="stylesheet" href="https://www.pk.makanumber.com/themes/flex-home/libraries/owl-carousel/owl.carousel.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://www.pk.makanumber.com/themes/flex-home/libraries/owl-carousel/owl.theme.default.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://www.pk.makanumber.com/themes/flex-home/libraries/bootstrap/bootstrap.min.v4.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://www.pk.makanumber.com/themes/flex-home/css/style.css?v=2.29.0">
+<script src="https://www.pk.makanumber.com/themes/flex-home/libraries/bootstrap/popper.min.js"></script>
+<script src="https://www.pk.makanumber.com/themes/flex-home/libraries/bootstrap/bootstrap.min.js"></script>
+<script src="https://www.pk.makanumber.com/themes/flex-home/libraries/jquery.min.js"></script>
 
 
-<script src="https://www.live.makanumber.com/themes/flex-home/libraries/owl-carousel/owl.carousel.min.js"></script>
-
+<script src="https://www.pk.makanumber.com/themes/flex-home/libraries/owl-carousel/owl.carousel.min.js"></script>
+  
 <div class="w-100">
   @include('layouts.property_search_form')
 </div>
@@ -83,7 +83,7 @@ if ($property->type == 'sale') {
             <i class="fa fa-home"></i>
           </div>
           <div class="float-right text-left ">
-            <h5>{{ implode(', ', $property->categories()->pluck('name')->all()) }}</h5>
+            <p style="font-weight: 700;">{{ implode(', ', $property->categories()->pluck('name')->all()) }}</p>
             <p>Type</p>
           </div>
         </div>

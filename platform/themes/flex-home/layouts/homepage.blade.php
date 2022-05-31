@@ -9,6 +9,8 @@ $property = DB::table('re_properties')
   ->join('re_property_categories', 're_properties.id', '=', 're_property_categories.property_id')
   ->select('*')
   ->where('moderation_status', 'approved')
+  ->orderBy("re_properties.id", "desc")
+  ->limit(12)
   ->get();
 
 $cities23 = DB::select('SELECT cities.id, cities.name, states.name AS stname FROM `cities` JOIN states on cities.state_id = states.id;');
@@ -296,9 +298,7 @@ $pkg = [];
       <div class="row slider" style="overflow:hidden ;">
 
         <div class="col-sm-12 img-section">
-          <video autoplay muted loop id="myVideo">
-            <source src="/videos/VID-20220315-WA0000.mp4" type="video/mp4">
-          </video>
+         <img src="slider_image\pexels-alex-staudinger-1732414.jpg" style="width: 100%; height: 750px !important">
         </div>
       </div>
 

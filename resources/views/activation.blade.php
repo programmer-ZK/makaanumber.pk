@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Makanumber</title>
-		<link rel="stylesheet" href="https//live.makanumber.com/vendor/core/core/base/css/email.css">
+		<link rel="stylesheet" href="https//pk.makanumber.com/vendor/core/core/base/css/email.css">
 	</head>
 	<body style="margin: 0;">
 		<table width="100%" id="mainStructure" border="0" cellspacing="0" cellpadding="0"
@@ -81,7 +81,7 @@
 																										<a href="site_url" style="color: #fff; text-decoration: none !important;"
 																											target="_blank">
 																										<img title="Logo"
-																											src="https://live.makanumber.com/frontend-images/email-logo.png"
+																											src="https://pk.makanumber.com/frontend-images/email-logo.png"
 																											height="100"
 																											style="max-width: 200px;display: block !important;height: auto !important;"
 																											alt="Logo" border="0"
@@ -168,7 +168,7 @@
                               <a href="www.makanumber.com" style="color: #fff; text-decoration: none !important;"
                                 target="_blank"> 
                               <img title="Logo"
-                              src="https://live.makanumber.com/frontend-images/logo.png"
+                              src="https://pk.makanumber.com/frontend-images/logo.png"
                               height="40"
                               style="padding-left: 5px; position:absolute; top: 0; max-width: 100px;display: inline-block !important;height: auto !important;"
                               alt="Logo" border="0"

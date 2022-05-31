@@ -8,6 +8,17 @@
 label{
   font-weight: 600 !important;
 }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
   </style>
   <section class="container-fluid">
     <section class="row justify-content-center" style="margin-top: 5%;">
@@ -50,7 +61,7 @@ label{
             <section class="col-6 ">
               <div class="form-group">
                 <label for="phone" style="color: black;">Phone (optional)</label>
-                <input type="tel" class="form-control" value="{{old('phone')}}" id="phone" name="phone" placeholder="+971 55 xxxxxx">
+                <input type="text" pattern="\d*" maxlength="12" class="form-control" value="{{old('phone')}}" id="phone" name="phone" placeholder="+971xxxxxx">
               </div>
             </section>
 
@@ -140,7 +151,7 @@ label{
             <section class="col-6 ">
               <div class="form-group">
                 <label for="phone" style="color:black;">Phone (optional)</label>
-                <input type="tel" class="form-control"   value="{{old('phone')}}" id="phone" name="phone" placeholder="+971 55 xxxxxx">
+                <input type="text" pattern="\d*" maxlength="12"  class="form-control"   value="{{old('phone')}}"   id="phone" name="phone" placeholder="+971xxxxxx">
               </div>
             </section>
 
