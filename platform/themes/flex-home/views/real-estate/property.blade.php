@@ -234,7 +234,7 @@ if ($property->type == 'sale') {
       @foreach($props as $prop)
       @if ($prop->video)
       <h5 class="headifhouse">Property Video</h5>
-      <video style="width:100%; object-fit: initial;" height="365" controls autoplay muted>
+      <video style="max-width:100%;" height="365" controls autoplay muted>
         <source src="{{asset('public/storage/properties/'.$prop->video)}}" type="video/mp4">
       </video>
       @else
