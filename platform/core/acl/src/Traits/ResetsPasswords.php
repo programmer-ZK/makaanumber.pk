@@ -74,7 +74,7 @@ trait ResetsPasswords
         return [
             'token'    => 'required',
             'email'    => 'required|email',
-            'password' => 'required|confirmed|min:8',
+            'password' => 'required|confirmed|min:6',
         ];
     }
 
@@ -107,10 +107,7 @@ trait ResetsPasswords
     protected function credentials(Request $request)
     {
         return $request->only(
-            'email',
-            'password',
-            'password_confirmation',
-            'token'
+            'email', 'password', 'password_confirmation', 'token'
         );
     }
 
@@ -129,11 +126,9 @@ trait ResetsPasswords
 
         $user->save();
 
-        // event(new PasswordReset($user));
+        event(new PasswordReset($user));
 
-        return redirect('/');
-
-        // $this->guard()->login($user);
+        $this->guard()->login($user);
     }
 
     /**
@@ -171,7 +166,8 @@ trait ResetsPasswords
             return new JsonResponse(['message' => trans($response)], 200);
         }
 
-        return redirect('/admin/login');
+        return redirect($this->redirectPath())
+            ->with('status', trans($response));
     }
 
     /**
