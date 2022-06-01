@@ -107,7 +107,10 @@ trait ResetsPasswords
     protected function credentials(Request $request)
     {
         return $request->only(
-            'email', 'password', 'password_confirmation', 'token'
+            'email',
+            'password',
+            'password_confirmation',
+            'token'
         );
     }
 
@@ -128,7 +131,9 @@ trait ResetsPasswords
 
         event(new PasswordReset($user));
 
-        $this->guard()->login($user);
+        return redirect('/');
+
+        // $this->guard()->login($user);
     }
 
     /**
