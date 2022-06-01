@@ -20,8 +20,8 @@ Route::group(['namespace' => 'Botble\ACL\Http\Controllers', 'middleware' => ['we
       Route::post('password/email', [ForgotPasswordController::class, 'sendResetLinkEmail'])
         ->name('access.password.email');
 
-        // Route::get('password/reset/{token}', [ResetPasswordController::class, 'showResetForm'])
-        //   ->name('access.password.reset');
+      Route::get('password/reset/{token}', [ResetPasswordController::class, 'showResetForm'])
+        ->name('access.password.reset');
       Route::post('password/reset', [ResetPasswordController::class, 'reset'])
         ->name('access.password.reset.post');
     });
