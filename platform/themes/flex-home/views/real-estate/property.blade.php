@@ -139,12 +139,12 @@ if ($property->type == 'sale') {
                   {{$user->username}}
                 </span>
               </p>
-              <div class="float-right">
+              {{-- <div class="float-right">
                 @php
                 $avatar = DB::table('media_files')->where('id', $user['avatar_id'])->first();
                 @endphp
                 <img src="{{ asset('public/storage/' . $avatar->url) }}" style="width:24px; height:24px; border-radius: 50%; " alt="profile-pic" class="mb-1 userName" />
-              </div>
+              </div> --}}
             </div>
           </div>
         </div>
