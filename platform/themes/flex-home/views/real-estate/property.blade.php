@@ -83,7 +83,7 @@ if ($property->type == 'sale') {
             <i class="fa fa-home"></i>
           </div>
           <div class="float-right text-left ">
-            <p style="font-weight: 700;">{{ implode(', ', $property->categories()->pluck('name')->all()) }}</p>
+            <span style="font-weight: 700; padding: 0px !important;">{{ implode(', ', $property->categories()->pluck('name')->all()) }}</span>
             <p>Type</p>
           </div>
         </div>
