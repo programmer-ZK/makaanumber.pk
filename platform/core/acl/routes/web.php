@@ -11,19 +11,19 @@ Route::group(['namespace' => 'Botble\ACL\Http\Controllers', 'middleware' => ['we
   Route::group(['prefix' => BaseHelper::getAdminPrefix()], function () {
     Route::group(['middleware' => 'guest'], function () {
 
-      // Route::get('login', [LoginController::class, 'showLoginForm'])->name('access.login');
-      // //  Route::post('login', [LoginController::class, 'login'])->name('access.login.post');  
-      // Route::post('login', [LoginController::class, 'login'])->name('access.login.post');
+      Route::get('login', [LoginController::class, 'showLoginForm'])->name('access.login');
+      //  Route::post('login', [LoginController::class, 'login'])->name('access.login.post');  
+      Route::post('login', [LoginController::class, 'login'])->name('access.login.post');
 
-      // Route::get('password/reset', [ForgotPasswordController::class, 'showLinkRequestForm'])
-      //   ->name('access.password.request');
-      // Route::post('password/email', [ForgotPasswordController::class, 'sendResetLinkEmail'])
-      //   ->name('access.password.email');
+      Route::get('password/reset', [ForgotPasswordController::class, 'showLinkRequestForm'])
+        ->name('access.password.request');
+      Route::post('password/email', [ForgotPasswordController::class, 'sendResetLinkEmail'])
+        ->name('access.password.email');
 
-      // Route::get('password/reset/{token}', [ResetPasswordController::class, 'showResetForm'])
-      //   ->name('access.password.reset');
-      // Route::post('password/reset', [ResetPasswordController::class, 'reset'])
-      //   ->name('access.password.reset.post');
+      Route::get('password/reset/{token}', [ResetPasswordController::class, 'showResetForm'])
+        ->name('access.password.reset');
+      Route::post('password/reset', [ResetPasswordController::class, 'reset'])
+        ->name('access.password.reset.post');
     });
 
     Route::group(['middleware' => 'auth'], function () {
