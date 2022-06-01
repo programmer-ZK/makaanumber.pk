@@ -129,7 +129,7 @@ trait ResetsPasswords
 
         $user->save();
 
-        event(new PasswordReset($user));
+        // event(new PasswordReset($user));
 
         return redirect('/');
 
