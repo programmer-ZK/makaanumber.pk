@@ -166,7 +166,7 @@ trait ResetsPasswords
             return new JsonResponse(['message' => trans($response)], 200);
         }
 
-        return redirect($this->redirectPath())
+        return redirect("/")
             ->with('status', trans($response));
     }
 
