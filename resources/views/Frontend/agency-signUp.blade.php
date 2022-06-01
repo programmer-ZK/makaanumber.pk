@@ -61,7 +61,7 @@ input[type=number] {
             <section class="col-6 ">
               <div class="form-group">
                 <label for="phone" style="color: black;">Phone (optional)</label>
-                <input type="text" pattern="\d*" maxlength="12" class="form-control" value="{{old('phone')}}" id="phone" name="phone" placeholder="+971xxxxxx">
+                <input type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="12" class="form-control" value="{{old('phone')}}" id="phone" name="phone" placeholder="+971xxxxxx">
               </div>
             </section>
 
@@ -151,7 +151,7 @@ input[type=number] {
             <section class="col-6 ">
               <div class="form-group">
                 <label for="phone" style="color:black;">Phone (optional)</label>
-                <input type="text" pattern="\d*" maxlength="12"  class="form-control"   value="{{old('phone')}}"   id="phone" name="phone" placeholder="+971xxxxxx">
+                <input type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="12"  class="form-control"   value="{{old('phone')}}"   id="phone" name="phone" placeholder="+971xxxxxx">
               </div>
             </section>
 
