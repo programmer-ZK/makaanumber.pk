@@ -195,7 +195,7 @@ if (Auth::user()) {
 
 <body @if (BaseHelper::siteLanguageDirection()=='rtl' ) dir="rtl" @endif style="overflow-x: hidden;">
 
-  <div style="margin-top: 40px;"></div>
+  <div></div>
   <div class="main-content">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-weight:bold ; margin-top:-40px;font-family: 'Montserrat', sans-serif !important;">
       <a class="navbar-brand ml-5" href="/">
