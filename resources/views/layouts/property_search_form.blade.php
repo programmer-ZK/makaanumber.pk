@@ -1,4 +1,4 @@
-<?php
+7<?php
 
 $cities = DB::table('cities')
   ->select('*')->get();
