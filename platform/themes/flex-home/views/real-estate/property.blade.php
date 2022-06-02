@@ -84,7 +84,7 @@ if ($property->type == 'sale') {
           </div>
           <div class="float-right text-left ">
             <span style="font-weight: 700; padding: 0px !important;">{{ implode(', ', $property->categories()->pluck('name')->all()) }}</span>
-            <p>Type</p>
+            <p style="margin-top: 5px">Type</p>
           </div>
         </div>
 
@@ -139,12 +139,22 @@ if ($property->type == 'sale') {
                   {{$user->username}}
                 </span>
               </p>
-              {{-- <div class="float-right">
+              <?php
+                $documents = \App\Models\Document::where('user_id', $user['id'])->get();
+                $doc_count = $documents->count();
+                ?>
+
+                @if ($user['avatar_id'])
+                  @if ($doc_count >= 1)
+                  <i class="fas fa-badge-check" aria-hidden="true" style="color:#00b4a2;"></i>
+                  @endif
+                </span>
                 @php
                 $avatar = DB::table('media_files')->where('id', $user['avatar_id'])->first();
                 @endphp
                 <img src="{{ asset('public/storage/' . $avatar->url) }}" style="width:24px; height:24px; border-radius: 50%; " alt="profile-pic" class="mb-1 userName" />
-              </div> --}}
+                @else
+                @endif
             </div>
           </div>
         </div>
