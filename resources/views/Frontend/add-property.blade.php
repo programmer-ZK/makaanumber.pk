@@ -34,7 +34,7 @@ $emirates = DB::table('states')
   </style>
 
   <!-- Slider Image Section -->
-  <div class="container">
+  <div class="container" style="background-color: #F7F7F7;">
     @if(Session::has('success'))
     <div class="alert alert-success">
       {{ Session::get('success') }}
