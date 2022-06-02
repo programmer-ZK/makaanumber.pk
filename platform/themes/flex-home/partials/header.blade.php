@@ -367,8 +367,8 @@ if (Auth::user()) {
       @endif
 
       </form>
-    </nav>
-  </div>
+    </div>
+  </nav>
 
 
   {!! apply_filters(THEME_FRONT_BODY, null) !!}
