@@ -51,8 +51,8 @@ $emirates = DB::table('states')
     @endif
 
 
-    <div class="" style="background-color: red;">
-      <div class="img-section">
+    <div class="" style="background-color: blue;">
+      <div class="img-section"  style="background-color: red;">
         <img class="img-fluid" src="storage\banner\add-property_cover.jpeg"  style="margin-left: auto;
   margin-right: auto;display: block; "/>
       </div>
