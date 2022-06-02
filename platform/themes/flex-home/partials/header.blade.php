@@ -196,7 +196,7 @@ if (Auth::user()) {
 <body @if (BaseHelper::siteLanguageDirection()=='rtl' ) dir="rtl" @endif style="overflow-x: hidden;">
 
   <div style="margin-top: 40px;"></div>
-  <div class="main-content">
+	<div class="main-content">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-weight:bold ; margin-top:-40px;font-family: 'Montserrat', sans-serif !important;">
       <a class="navbar-brand ml-5" href="/">
         <img src="/frontend-images/logo.svg" alt="logo-img" style="height:45px" />
@@ -295,14 +295,14 @@ if (Auth::user()) {
           <li class="nav-item mt-2 ml-3 active" style="border:none !important;">
             <span class="mr-5">
               <img class="flag1 mr-1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/320px-Flag_of_Pakistan.svg.png" />
-
               <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/255px-Flag_of_the_United_Arab_Emirates.svg.png" />
             </span>
 
           </li>
           @if (Auth::user())
           <li class="nav-item mt-1 ">
-            <a href="/add-property"><button class="btn btn-default add-property">Add Property</button></a>
+            <a href="/add-property"><button class="btn btn-default" style="border:1px solid #D3D3D3;">Add
+                Property</button></a>
           </li>
           @endif
 
@@ -367,7 +367,7 @@ if (Auth::user()) {
       @endif
 
       </form>
-    </div>
+  </div>
   </nav>
 
 
