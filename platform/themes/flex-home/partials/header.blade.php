@@ -195,7 +195,7 @@ if (Auth::user()) {
 
 <body @if (BaseHelper::siteLanguageDirection()=='rtl' ) dir="rtl" @endif style="overflow-x: hidden;">
 
-  <div></div>
+  <div style="margin-top: 40px;"></div>
   <div class="main-content">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-weight:bold ; margin-top:-40px;font-family: 'Montserrat', sans-serif !important;">
       <a class="navbar-brand ml-5" href="/">
@@ -206,7 +206,8 @@ if (Auth::user()) {
       </button>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
+        <ul class="navbar-nav ml-auto mt-1 mt-lg-0 ">
+          
           <li class="nav-item active mt-1" style="border:none !important;">
             <a class="nav-link mr-4 hoverEffect" href="/"><span class="nt-1" style="padding-top:4px;">H</span>ome</a>
           </li>
