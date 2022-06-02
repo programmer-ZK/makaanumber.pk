@@ -158,7 +158,7 @@ if ($property->type == 'sale') {
                 @php
                 $avatar = DB::table('media_files')->where('id', $user['avatar_id'])->first();
                 @endphp
-                <img src="{{ asset('public/storage/' . $avatar->url) }}" style="width:70px; height:70px; border-radius: 50%; margin-top:5px; margin-right:5px;" alt="profile-pic" class="mb-1 userName" />
+                <img src="{{ asset('public/storage/' . $avatar->url) }}" style="width:70px; height:70px; border-radius: 50%; margin-top:5px; margin-right:1s5px;" alt="profile-pic" class="mb-1 userName" />
                 @else
                 @endif
               </div>
