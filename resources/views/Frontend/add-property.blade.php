@@ -18,7 +18,7 @@ $emirates = DB::table('states')
 
 @section('content')
 
-<div class="overflow-hidden" style="background-color: red;">
+<div class="overflow-hidden">
   <style>
     input[type=number]::-webkit-inner-spin-button,
     input[type=number]::-webkit-outer-spin-button {
@@ -51,7 +51,7 @@ $emirates = DB::table('states')
     @endif
 
 
-    <div class="">
+    <div class="" style="background-color: red;">
       <div class="img-section">
         <img class="img-fluid" src="storage\banner\add-property_cover.jpeg"  style="margin-left: auto;
   margin-right: auto;display: block; "/>
