@@ -130,16 +130,22 @@ if ($property->type == 'sale') {
         @foreach($users as $user)
         @if($user)
         <div class="row rowm10 itemagent">
-          <div class="col-lg-8 colm10">
-            <div class="info mt-2">
-              <p style="font-size:18px; font-weight:bold; padding-left: 10px;">
-                {{$user->first_name}} {{$user->last_name}}
-                <br>
-                <span style="font-size: 14px; color: grey;">
-                  {{$user->username}}
-                </span>
-              </p>
-              <?php
+          <div class="col-lg-12 colm10">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="info mt-2">
+                  <p style="font-size:18px; font-weight:bold; padding-left: 10px;">
+                    {{$user->first_name}} {{$user->last_name}}
+                    <br>
+                    <span style="font-size: 14px; color: grey;">
+                      {{$user->username}}
+                    </span>
+                  </p>
+                  
+                </div>  
+              </div>
+              <div class="col-lg-4">
+                <?php
                 $documents = \App\Models\Document::where('user_id', $user['id'])->get();
                 $doc_count = $documents->count();
                 ?>
@@ -152,10 +158,12 @@ if ($property->type == 'sale') {
                 @php
                 $avatar = DB::table('media_files')->where('id', $user['avatar_id'])->first();
                 @endphp
-                <img src="{{ asset('public/storage/' . $avatar->url) }}" style="width:24px; height:24px; border-radius: 50%; " alt="profile-pic" class="mb-1 userName" />
+                <img src="{{ asset('public/storage/' . $avatar->url) }}" style="width:24px; height:24px; border-radius: 50%;" alt="profile-pic" class="mb-1 userName" />
                 @else
                 @endif
+              </div>
             </div>
+            
           </div>
         </div>
 
