@@ -18,7 +18,7 @@ $emirates = DB::table('states')
 
 @section('content')
 
-<div class="overflow-hidden">
+<div class="overflow-hidden" style="background-color: red;">
   <style>
     input[type=number]::-webkit-inner-spin-button,
     input[type=number]::-webkit-outer-spin-button {
@@ -34,7 +34,7 @@ $emirates = DB::table('states')
   </style>
 
   <!-- Slider Image Section -->
-  <div class="container" style="background-color: red;">
+  <div class="container">
     @if(Session::has('success'))
     <div class="alert alert-success">
       {{ Session::get('success') }}
