@@ -119,14 +119,14 @@ $emirates = DB::table('states')
 
           <div class="col-sm-9">
             <div class="row ml-1">
-              <select class="ml-1 select-color" id="emirates" name="emirates">
+              <select class="ml-1 mb-1 select-color" id="emirates" name="emirates">
                 <option value="" selected disabled>Select Cities</option>
                 @foreach($emirates as $emirate)
                 <option value="{{$emirate->id}}">{{$emirate->name}}</option>
                 @endforeach
               </select>
 
-              <select style="padding:5px 10px " class="ml-1 select-color" id="location" name="city_id" required>
+              <select style="padding:5px 10px " class="mt-2 ml-1 select-color" id="location" name="city_id" required>
 
                 <option value="" disabled selected>Select Area</option>
                 @foreach($cities as $city)
