@@ -206,8 +206,7 @@ if (Auth::user()) {
       </button>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto mt-1 mt-lg-0 ">
-          
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
           <li class="nav-item active mt-1" style="border:none !important;">
             <a class="nav-link mr-4 hoverEffect" href="/"><span class="nt-1" style="padding-top:4px;">H</span>ome</a>
           </li>
@@ -369,6 +368,7 @@ if (Auth::user()) {
 
       </form>
     </nav>
+  </div>
   </div>
 
 
