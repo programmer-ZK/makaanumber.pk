@@ -238,7 +238,7 @@
           </li>
           @if (Auth::user())
           <li class="nav-item mt-1 ">
-            <a href="/add-property"><button class="btn btn-default" style="border:1px solid #D3D3D3;">Add
+            <a href="/add-property"><button class="btn btn-default add-property"  style="border:1px solid #D3D3D3;">Add
                 Property</button></a>
           </li>
           @endif
