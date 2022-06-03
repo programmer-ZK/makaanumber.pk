@@ -225,7 +225,7 @@
   window.siteUrl = '{{ url('
   ') }}';
   window.currentLanguage = '{{ App::getLocale() }}';
-</script> 
+</script>
 
 <!--END FOOTER-->
 
@@ -236,26 +236,28 @@
 @endif
 </div> --}}
 
-  <!-- SELECT 2 JS -->
-  <script src="js/select2.min.js"></script>
+<!-- SELECT 2 JS -->
+<script src="js/select2.min.js"></script>
 
-  <script src="js/custom.js"></script>
-  <script>
-    var old = alert;
+<script src="js/custom.js"></script>
+<script>
+  var old = alert;
 
-alert = function() {
-  console.log(new Error().stack);
-  old.apply(window, arguments);
-};
+  alert = function() {
+    console.log(new Error().stack);
+    old.apply(window, arguments);
+  };
 
-$(document).ready(function() {
-      window.onload = function() {
-        $('.loader').fadeOut(500, function() {
-          $('.loader').remove();
-        });
-      }
-    });
-  </script>
+  $(document).ready(function() {
+    window.onload = function() {
+      $('.loader').fadeOut(500, function() {
+        $('.loader').remove();
+      });
+    }
+  });
+
+  console.log("footer script working!");
+</script>
 {!! Theme::footer() !!}
 </body>
 
