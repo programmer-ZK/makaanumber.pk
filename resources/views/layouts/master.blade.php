@@ -405,7 +405,7 @@
 				<hr class="green1 pl-2 pr-2" />
 				<ul class="ul">
 					<li class="li pb-3">
-						Office # 256, Baharia icon, Clifton, Karachi, Pakistan.
+						Office # 256, bahria icon, Clifton, Karachi, Pakistan.
 					</li>
 
 
