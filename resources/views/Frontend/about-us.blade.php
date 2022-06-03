@@ -33,7 +33,7 @@
     </section>
     <section class="col-sm-3 mt-5" style="margin-left: 20px;  ">
       <div class="about_logo" style="width: 250px; ">
-        <img src="/frontend-images/download1.png" class="img-fluid center" alt="Responsive image">
+        <img src="/frontend-images/download1.svg" class="img-fluid center" alt="Responsive image">
       </div>
     </section>
     <section class="col-sm-7 mb-5" style="padding-top: 100px; padding-right: 80px;">
