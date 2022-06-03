@@ -116,7 +116,7 @@
 </div>
 
 
- 
+
 
 <style>
   .green1 {
@@ -165,12 +165,12 @@
 </style>
 
 <script>
-  $(document).ready(function() {
-    window.onload = function() {
+  (function($) {
+    $(window).load(function() {
       $('.loader').fadeOut(500, function() {
         $('.loader').remove();
       });
-    }
+    });
   });
 
   console.log("footer script working!");
@@ -215,8 +215,6 @@
     console.log(new Error().stack);
     old.apply(window, arguments);
   };
-
-  
 </script>
 {!! Theme::footer() !!}
 </body>
