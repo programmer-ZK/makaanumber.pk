@@ -1109,11 +1109,5 @@ if (Auth::user()) {
     //    }
     //  });
 
-    $(document).ready(function() {
-      window.onload = function() {
-        $('.loading').fadeOut(500, function() {
-          $('.loading').remove();
-        });
-      }
-    });
+    
   </script>

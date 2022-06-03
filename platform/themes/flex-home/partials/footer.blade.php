@@ -247,6 +247,14 @@ alert = function() {
   console.log(new Error().stack);
   old.apply(window, arguments);
 };
+
+$(document).ready(function() {
+      window.onload = function() {
+        $('.loading').fadeOut(500, function() {
+          $('.loading').remove();
+        });
+      }
+    });
   </script>
 {!! Theme::footer() !!}
 </body>
