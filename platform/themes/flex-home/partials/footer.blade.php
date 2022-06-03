@@ -86,7 +86,7 @@
       <hr class="green1 pl-2 pr-2" />
       <ul class="ul">
         <li class="li pb-3">
-          Office#313, Marina Plaza,Dubai Marina, Dubai, U.A.E
+          Office # 256, Baharia icon, Clifton, Karachi, Pakistan.
         </li>
 
         <li class="li pb-3">
@@ -116,49 +116,7 @@
 </div>
 
 
-{{-- <footer>
-    <br>
-    <div class="container-fluid w90">
-        <div class="row">
-            <div class="col-sm-3">
-                @if (theme_option('logo'))
-                <p>
-                    <a href="{{ route('public.single') }}">
-<img src="{{ RvMedia::getImageUrl(theme_option('logo'))  }}" style="max-height: 38px" alt="{{ theme_option('site_name') }}">
-</a>
-</p>
-@endif
-@if (theme_option('address'))
-<p><i class="fas fa-map-marker-alt"></i> &nbsp;{{ theme_option('address') }}</p>
-@endif
-@if (theme_option('hotline'))
-<p><i class="fas fa-phone-square"></i> {{ __('Hotline') }}: &nbsp;<a href="tel:{{ theme_option('hotline') }}">{{ theme_option('hotline') }}</a></p>
-@endif
-@if (theme_option('email'))
-<p><i class="fas fa-envelope"></i> {{ __('Email') }}: &nbsp;<a href="mailto:{{ theme_option('email') }}">{{ theme_option('email') }}</a></p>
-@endif
-</div>
-<div class="col-sm-9 padtop10">
-  <div class="row">
-    {!! dynamic_sidebar('footer_sidebar') !!}
-  </div>
-</div>
-</div>
-<div class="row">
-  <div class="col-12">
-    {!! Theme::partial('language-switcher') !!}
-  </div>
-</div>
-<div class="copyright">
-  <div class="col-sm-12">
-    <p class="text-center">
-      {!! clean(theme_option('copyright')) !!}
-    </p>
-  </div>
-</div>
-</div>
-</footer> --}}
-<!--FOOTER-->
+
 
 <style>
   .green1 {
@@ -227,14 +185,6 @@
   window.currentLanguage = '{{ App::getLocale() }}';
 </script>
 
-<!--END FOOTER-->
-
-{{--<div class="action_footer">
-    <a href="#" class="cd-top"><i class="fas fa-arrow-up"></i></a>
-    @if (theme_option('hotline'))
-        <a href="tel:{{ theme_option('hotline') }}" style="color: white;font-size: 17px;"><i class="fas fa-phone"></i> <span> &nbsp;{{ theme_option('hotline') }}</span></a>
-@endif
-</div> --}}
 
 <!-- SELECT 2 JS -->
 <script src="js/select2.min.js"></script>

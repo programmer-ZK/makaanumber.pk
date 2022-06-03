@@ -187,7 +187,7 @@
 
             <div class="form-group">
               <label for="exampleInputEmail1">Name</label>
-              <input type="text" class="form-control" placeholder="enter your name">
+              <input type="text" class="form-control" placeholder="Enter your name">
 
             </div>
             <!-- <textarea name="comment"  style="width: 100%;">Enter text here...</textarea> -->

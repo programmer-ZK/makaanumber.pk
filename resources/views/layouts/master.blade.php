@@ -403,7 +403,7 @@
 				<hr class="green1 pl-2 pr-2" />
 				<ul class="ul">
 					<li class="li pb-3">
-						Office#313, Marina Plaza,Dubai Marina, Dubai, U.A.E
+						Office # 256, Baharia icon, Clifton, Karachi, Pakistan.
 					</li>
 
 
