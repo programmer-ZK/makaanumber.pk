@@ -300,7 +300,7 @@ class PropertyController extends Controller
       $query  = $query->where('re_properties.price', '>=', $request->priceFrom);
     }
     
-    $query  = $query->where('re_properties.moderation_status', '==', "approved");
+    // $query  = $query->where('re_properties.moderation_status', '==', "approved");
 
     $results = $query->where('is_featured', 1)->get();
     $data = $request->all();
