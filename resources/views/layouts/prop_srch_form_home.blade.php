@@ -12,13 +12,7 @@ $emirates = DB::table('states')
 
   <form action="/search-propeties"  method="get">
     @csrf
-    <div id="searchSpinner" class="row">
-      <div class="col-lg-6 spinner-div">
-        <div class="spinner-border spinner-custom" role="status">
-          <span class="sr-only">Loading...</span>
-        </div>
-      </div>
-    </div>
+    
     <div id="searchItems" class="mt-3">
       
       <div class="row mt-2">

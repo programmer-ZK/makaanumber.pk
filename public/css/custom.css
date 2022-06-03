@@ -30,9 +30,7 @@ body{
   color: #09B5A2;
   display: flex;
 }
-#searchItems{
-  display: none;
-}
+
 .select2-selection__rendered li.select2-selection__choice:not(:first-child){
   padding-left: 5px;
   padding-right: 5px;
