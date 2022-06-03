@@ -191,16 +191,16 @@ if (Auth::user()) {
 
   <!-- Preloader -->
   <style>
-    .loader {
-      position: fixed;
-      left: 0px;
-      top: 0px;
-      width: 100%;
-      height: 100%;
-      z-index: 9999;
-      background: url('gif/FoBTwy.gif') 50% 50% no-repeat rgb(0, 0, 0);
-    }
-  </style>
+  .loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('gif/FoBTwy.gif') 50% 50% no-repeat rgb(0,0,0);
+  }
+</style>
   <!-- {!! Theme::header() !!} -->
 
 </head>
@@ -911,14 +911,6 @@ if (Auth::user()) {
 
 
   <script>
-    $(document).ready(function() {
-      window.onload = function() {
-        $('.loader').fadeOut(500, function() {
-          $('.loader').remove();
-        });
-      }
-    });
-
     $(document).ready(function() {
 
       //       jQuery("#myInput").on("keyup", function() {
