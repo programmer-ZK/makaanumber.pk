@@ -211,7 +211,7 @@ $pkg = [];
 
   @media screen and (max-width: 1366px) {
     .overlay {
-      top: 40%;
+      top: 53%;
     }
   }
 
