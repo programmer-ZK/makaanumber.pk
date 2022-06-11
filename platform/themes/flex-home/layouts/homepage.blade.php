@@ -348,7 +348,7 @@ $pkg = [];
                   <img src="/storage/icons/buy-sell-rent.png" class="mb-4" style="height: 100px;">
                 </div>
                 <h5 class="card-title my-2">BUY-SELL-RENT</h5>
-                <p class="card-text px-5 mt-3">With numerable options, we find you best deals in real estate market, Find your next Home, Apartment, Shop, Office or Land with us.</p>
+                <p class="card-text px-5 mt-3">We find you the best deals in the real estate market by creating an on-demand online experience of buying, selling, and also rent. Find your next Home, Apartment, Shop,  Office, Off- Plan properties with Makanumber.com.</p>
               </div>
             </div>
           </div>
@@ -359,7 +359,7 @@ $pkg = [];
                   <img src="/storage/icons/manage-property.png" class="mb-4" style="height: 100px;">
                 </div>
                 <h5 class="card-title my-2">MANAGE PROPERTY</h5>
-                <p class="card-text px-5 mt-3">Manage your property portfolios by a distinct feature called “My Makan Dashboard”. It’s for owners to manage their investment portfolio by tracking their property value over time, researching and managing home improvements, and scouting other similar properties in the neighborhood.</p>
+                <p class="card-text px-5 mt-3">Manage your property portfolios with a distinct feature called “My Makan Dashboard”. It is for the owners to manage their investment portfolio by tracking their property value over time and scouting other similar properties in the neighborhood.</p>
               </div>
             </div>
           </div>
@@ -370,14 +370,13 @@ $pkg = [];
                   <img src="/storage/icons/Home-improvement.png" class="mb-4" style="height: 100px;">
                 </div>
                 <h5 class="card-title my-2">HOME IMPROVEMENTS</h5>
-                <p class="card-text px-5 mt-3">We know the best design and décor for you and what fits out in your budget that you allow us in order to make your living experience beautiful. </p>
+                <p class="card-text px-5 mt-3">We know the best design, décor, and comfort according to your taste. We are here to help you turn your house into your dream home or to give your office a complete makeover the smart way and under an affordable budget. </p>
               </div>
             </div>
           </div>
 
         </div>
       </div>
-
       <div class="container-fluid text-center pl-5 pr-5 mt-5" style="background-color:#2A2A2A; padding-top:40px; padding-bottom:40px;">
         <div class="row" id="myDiv">
           <div class="col-12">
