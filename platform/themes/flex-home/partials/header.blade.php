@@ -204,8 +204,31 @@ if (Auth::user()) {
 
   .loader-gif{
     height: 180px;
+    width: 10px;
     z-index: 9999;
   }
+/*  
+  @media screen and (min-width: 360px) {
+    #loader-gif {
+      left: 10%;
+      top: 30%;
+    }
+  }
+
+  @media screen and (min-width: 601px ) {
+    #loader-gif {
+      left: 20%;
+      top: 30%;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    #loader-gif {
+      left: 37%;
+      top: 30%;
+    }
+  }
+  */
 </style>
   <!-- {!! Theme::header() !!} -->
 
@@ -320,10 +343,10 @@ if (Auth::user()) {
 
           <li class="nav-item mt-2 ml-3 active" style="border:none !important;">
             <span class="mr-5">
-                <img class="flag1 mr-1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/320px-Flag_of_Pakistan.svg.png" />
-              <a href="https://www.ae.makanumber.com">
-                <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/255px-Flag_of_the_United_Arab_Emirates.svg.png" />
-              </a>
+				<img class="flag1 mr-1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/320px-Flag_of_Pakistan.svg.png" />
+				<a href="https://www.ae.makanumber.com">
+				  <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/255px-Flag_of_the_United_Arab_Emirates.svg.png" />
+				</a>
             </span>
 
           </li>
