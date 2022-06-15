@@ -24,6 +24,7 @@ if (Auth::user()) {
 
   <!-- SELECT 2 CSS -->
   <link href="css/select2.min.css" rel="stylesheet" />
+  <link href="css/base.css" rel="stylesheet" />
 
   <!-- Bootstrap  -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
@@ -53,6 +54,9 @@ if (Auth::user()) {
   <title>Makanumber.com</title>
 
   <style>
+    .main-content {
+      min-height: calc(100vh - 60px);
+    }
     .add-property {
       background-color: #28BEAE;
       color: white;
@@ -256,11 +260,11 @@ if (Auth::user()) {
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
-          <li class="nav-item active mt-1" style="border:none !important;">
+          <li class="nav-item active mt-2 pt-2" style="border:none !important;">
             <a class="nav-link mr-4 hoverEffect" href="/"><span class="nt-1" style="padding-top:4px;">H</span>ome</a>
           </li>
           <div class="dropdown">
-            <li class="nav-item active mt-1  " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border:none !important; ">
+            <li class="nav-item active mt-2 pt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border:none !important; ">
               <a class="nav-link mr-4 hoverEffect" href="#"><span class="nt-1" style="padding-top:4px;">B</span>uy <span class="sr-only">(current)</span></a>
             </li>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -290,7 +294,7 @@ if (Auth::user()) {
           </div>
 
           <div class="dropdown">
-            <li class="nav-item active mt-1  " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border:none !important;">
+            <li class="nav-item active mt-2 pt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border:none !important;">
               <a class="nav-link mr-4 hoverEffect" href="#"><span class="nt-1" style="padding-top:4px;">R</span>ent</a>
             </li>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -329,7 +333,7 @@ if (Auth::user()) {
         </div> --}}
 
           <div class="dropdown">
-            <li class="nav-item active hoverEffect" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border:none !important;">
+            <li class="nav-item active hoverEffect mt-1 pt-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border:none !important;">
               <span class="nav-link" style="padding-top:12px;" href="#"><span class="pr-1">More</span><span class="fa fa-bars  " style="margin-bottom:-10px !important; font-size:18px; "></span></span>
             </li>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -341,7 +345,7 @@ if (Auth::user()) {
           </div>
 
 
-          <li class="nav-item mt-2 ml-3 active" style="border:none !important;">
+          <li class="nav-item mt-2 pt-2 ml-3 active" style="border:none !important;">
             <span class="mr-5">
 				<img class="flag1 mr-1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/320px-Flag_of_Pakistan.svg.png" />
 				<a href="https://www.ae.makanumber.com">
