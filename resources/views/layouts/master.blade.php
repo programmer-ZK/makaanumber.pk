@@ -240,7 +240,7 @@
           </li>
           @if (Auth::user())
           <li class="nav-item mt-1 ">
-            <a href="/add-property"><button class="btn btn-default add-property"  style="border:1px solid #D3D3D3;">Add
+            <a href="/add-property"><button class="btn btn-default add-property" style="border:1px solid #D3D3D3;">Add
                 Property</button></a>
           </li>
           @endif
@@ -328,9 +328,9 @@
 					numbers of options according to your choice and preference because home is not just a place. IT’S A
 					FEELING!</p>
 				<div class="row social-icons">
-					<i class="fab fa-facebook-f social-icon ml-2 p-2"></i>
-					<i class="fab fa-twitter social-icon ml-2 p-2"></i>
-					<i class="fab fa-youtube social-icon ml-2 p-2"></i>
+					<div class="social-icon  ml-2 text-center"> <i class="fab fa-facebook-f p-1"></i></div>
+					<div class="social-icon  ml-2 text-center"> <i class="fab fa-twitter p-1"></i></div>
+					<div class="social-icon  ml-2 text-center"> <i class="fab fa-youtube p-1"></i></div>
 				</div>
 			</div>
 

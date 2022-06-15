@@ -53,8 +53,9 @@ $emirates = DB::table('states')
 
     <div class="">
       <div class="img-section">
-        <img class="img-fluid" src="storage\banner\add-property_cover.jpeg"  style="margin-left: auto;
-  margin-right: auto;display: block; "/>
+        <img class="img-fluid add-prop-img" src="storage\banner\add-property_cover.jpeg" style="margin-left: auto;
+  margin-right: auto;display: block; filter: brightness(1.1);
+"/>
       </div>
     </div>
 
@@ -97,7 +98,7 @@ $emirates = DB::table('states')
 
           <div class="col-sm-9">
             <div class="row ml-1">
-              <select style="padding:5px 10px " class="ml-1 select-color" name="propertyType" required>
+              <select style="padding:5px 10px " class="ml-1 mb-1 select-color" name="propertyType" required>
                 <option value="" disabled selected>Select Property Type</option>
                 @foreach($propertyTypes as $propertyType)
                 <option value="{{$propertyType->id}}">{{$propertyType->name}}</option>
@@ -119,14 +120,14 @@ $emirates = DB::table('states')
 
           <div class="col-sm-9">
             <div class="row ml-1">
-              <select class="ml-1 mb-1 select-color" id="emirates" name="emirates">
-                <option value="" selected disabled>Select Cities</option>
+              <select style="padding:5px 10px" class="ml-1 mb-1 select-color" id="emirates" name="emirates">
+                <option value="" selected disabled>Select Emirates</option>
                 @foreach($emirates as $emirate)
                 <option value="{{$emirate->id}}">{{$emirate->name}}</option>
                 @endforeach
               </select>
 
-              <select style="padding:5px 10px " class="mt-2 ml-1 select-color" id="location" name="city_id" required>
+              <select style="padding:5px 10px" class="ml-1 mb-1 select-color" id="location" name="city_id" required>
 
                 <option value="" disabled selected>Select Area</option>
                 @foreach($cities as $city)
@@ -181,7 +182,7 @@ $emirates = DB::table('states')
         <div class="row">
           <div class="col-sm-3">
             <div class="row float">
-              <label class="form-label ">Price (PKR):</label>
+              <label class="form-label ">Price (AED):</label>
             </div>
             <br>
           </div>
@@ -203,8 +204,8 @@ $emirates = DB::table('states')
 
           <div class="col-sm-9">
             <div class="row ml-1">
-              <input type="number" class="select-color p-1" style="margin-left:2px;" name="square" required />
-              <select style="padding:6px 10px; " class="ml-1 select-color" name="area">
+              <input type="number" class="select-color" name="square" required />
+              <select style="padding:5px 10px; " class="ml-1 mb-1 select-color" name="area">
                 <option value="square">Square Feet</option>
                 <option value="Meter">Meter</option>
 
@@ -225,7 +226,7 @@ $emirates = DB::table('states')
 
           <div class="col-sm-9">
             <div class="row ml-1">
-              <input type="number" class="select-color p-1 ml-1" style="width:80px;" name="bedroom" required />
+              <input type="number" class="select-color p-1" style="width:80px;" name="bedroom" required />
               <label class="form-label ml-2 ">Bathrooms:</label>
               <input type="number" class="select-color p-1 ml-1" style="width: 80px;" name="bathroom" required />
             </div>
@@ -260,7 +261,7 @@ $emirates = DB::table('states')
 
           <div class="col-sm-9">
             <div class="row ml-1">
-              <input type="number" class="select-color p-1 ml-2" style="width:80px;" name="parking" required />
+              <input type="number" class="select-color p-1" style="width:80px;" name="parking" required />
             </div>
           </div>
         </div>
@@ -332,7 +333,7 @@ $emirates = DB::table('states')
               <div class="row">
                 <label style="color:grey;" class="mt-3">Upload Images</label>
               </div>
-              <div class="row image-border no-guuters" style="border-color:#E5E5E5;">
+              <div class="row image-border" style="border-color:#E5E5E5;">
 
                 <div class="upload">
                   <input type="file" name="prop_images[]" multiple id="gallery-photo-add" accept="image/x-png,image/gif,image/jpeg">
@@ -359,7 +360,7 @@ $emirates = DB::table('states')
               <div class="row">
                 <label style="color:grey;" class="mt-3">Upload Video Tour</label>
               </div>
-              <div class="row image-border no-gutters" style="border-color:#E5E5E5;">
+              <div class="row image-border" style="border-color:#E5E5E5;">
                 <div class="upload">
 
                   <input type="file" name="prop_video" id="fileUpload1" style="cursor:pointer;" />

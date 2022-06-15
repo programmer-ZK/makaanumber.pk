@@ -22,19 +22,24 @@
   <section class="row  ">
     <section class="col-sm-3 mt-5">
 
-      <h1>Blogs</h1>
+      <p class="font-blog h-first">Makanumber</p>
+      <p class="font-blog h-second">Blogs</p>
 
     </section>
-    <section class="col-sm-9 mb-5 ">
+    <section class="col-sm-9">
       <div>
-        <img src="/frontend-images/download4.png" class="img-fluid" alt="Responsive image">
+        <img src="/frontend-images/blog-image.jpeg" class="img-fluid" alt="Responsive image" style="margin-left: auto;
+        margin-right: auto;display: block; filter: brightness(1.1);
+      ">
       </div>
 
     </section>
 
-
+    
   </section>
 </section>
+<div class="container-fluid" style="background-color: #00B4A2 ; height: 2px; margin-bottom: 30px;">
+</div>
 
 <!-- <section class="container">
   <section class="row">
