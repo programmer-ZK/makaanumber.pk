@@ -8,9 +8,6 @@ $state = \Botble\Location\Models\State::with(['cities.properties'])
 ?>
 
 <style>
-  nav {
-    margin-top: 0px !important;
-  }
 </style>
 <link media="all" type="text/css" rel="stylesheet" href="https://www.pk.makanumber.com/themes/flex-home/libraries/owl-carousel/owl.carousel.min.css">
 <link media="all" type="text/css" rel="stylesheet" href="https://www.pk.makanumber.com/themes/flex-home/libraries/owl-carousel/owl.theme.default.css">
