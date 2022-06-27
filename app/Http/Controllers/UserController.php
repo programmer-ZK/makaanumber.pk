@@ -178,7 +178,7 @@ class UserController extends Controller
 
         $to_name = $request->name;
         $to_email = $request->email;
-        $date_time = Carbon::now()->toDateTimeString();
+        $date_time = date('m/d/Y h:i:s a', time());
         $body = $_SERVER['SERVER_NAME'] . "/activation/$randomString";
         $data = array("name" => $to_name, "body" => $body, 'date_time' => $date_time);
 
