@@ -365,14 +365,21 @@ $emirates = DB::table('states')
 
                   <input type="file" name="prop_video" id="fileUpload1" style="cursor:pointer;" />
                   <span class="fileName"></span>
-                  <input type="button" class="uploadButton" name="prop_video" value="+ Add Video" />
+
+
+                  
+                  <input type="button" class="uploadButton" id="prop_video" name="prop_video" value="Add Video" />
                 </div>
+
+                  <video controls class="video" style="max-width: 100%; display: none;" ></video >
+
               </div>
-              <video controls class="video" ></video >
-
+              
             </div>
-
+            
           </div>
+          
+
           <br>
           <div class="row">
             <div class="col-sm-2">
@@ -461,6 +468,9 @@ $emirates = DB::table('states')
    var fileInput = document.getElementById('fileUpload1');
    var fileUrl = window.URL.createObjectURL(fileInput.files[0]);
    $(".video").attr("src", fileUrl);
+   $(".video").show();
+   $("#prop_video").hide();
+
 });
 </script>
 
