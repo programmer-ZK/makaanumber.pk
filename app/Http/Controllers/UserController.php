@@ -16,6 +16,9 @@ use DB;
 use Carbon\Carbon;
 use RvMedia;
 
+date_default_timezone_set('Asia/Karachi');
+
+
 class UserController extends Controller
 {
   public function agencySignUp(Request $request)
