@@ -368,6 +368,7 @@ $emirates = DB::table('states')
                   <input type="button" class="uploadButton" name="prop_video" value="+ Add Video" />
                 </div>
               </div>
+              <video controls class="video" ></video >
 
             </div>
 
@@ -453,6 +454,14 @@ $emirates = DB::table('states')
       }
     });
   });
+</script>
+
+<script>
+  $ ("#fileUpload1").change(function () {
+   var fileInput = document.getElementById('fileUpload1');
+   var fileUrl = window.URL.createObjectURL(fileInput.files[0]);
+   $(".video").attr("src", fileUrl);
+});
 </script>
 
 @stop
